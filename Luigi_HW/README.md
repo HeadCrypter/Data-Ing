@@ -36,6 +36,7 @@ python pipeline.py AllRuner --local-scheduler --data-dir 'data' --dataset-series
  3 TextReducer: Обрабатывает текстовые файлы, разделяет их на отдельные таблицы и сохраняет каждую таблицу в формате TSV в отдельной директории внутри data/GSE68849. Также создает урезанную версию таблицы Probes.
  4 MessCleaner: Удаляет все исходные текстовые файлы и директорию extracted, создает файл readme.txt с информацией о выполненных шагах.
 
+```css
 data/
 └── GSE68849/
     ├── Columns/
@@ -49,3 +50,4 @@ data/
     ├── Probes_reduced/
     │   └── Probes_reduced.tsv
     └── readme.txt
+```
