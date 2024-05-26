@@ -23,12 +23,12 @@
 
 ```bash
 pip install -r requirements.txt
-
+```
 Для запуска всех задач пайплайна выполните следующую команду:
 
 ```bash
 python pipeline.py AllRuner --local-scheduler --data-dir 'data' --dataset-series 'GSE68nnn' --dataset-name 'GSE68849'
-
+```
 Детали выполнения пайплайна
 Пайплайн включает следующие задачи:
  1 GeoLoader: Скачивает архив GSE68849_RAW.tar из GEO и сохраняет его в директорию data.
